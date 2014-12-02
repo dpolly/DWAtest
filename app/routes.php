@@ -26,6 +26,14 @@ Route::get('/test-master', function()
     }
 );
 
+Route::get('/family/create', function()
+    {
+        return View::make("family_add");
+    }
+);
+
+
+
 /**
  * Validate Database Connectivity
  */
